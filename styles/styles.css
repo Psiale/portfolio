@@ -22,6 +22,7 @@ body {
   letter-spacing: 0.15em;
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
+
 @keyframes typing {
   from {
     width: 0;
@@ -41,3 +42,4 @@ body {
     border-color: lightgreen;
   }
 }
+

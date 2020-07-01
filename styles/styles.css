@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.typewritter h1 {
+.typewritter p {
   color: white;
   overflow: hidden;
   border-right: 0.15em solid lightgreen;

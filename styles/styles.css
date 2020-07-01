@@ -9,11 +9,8 @@ body {
 }
 body {
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.typewritter p {
+.typewritter h1 {
   color: white;
   overflow: hidden;
   border-right: 0.15em solid lightgreen;

@@ -17889,6 +17889,7 @@ body {
 }
 
 .typewritter p {
+  font-family: 'Inconsolata', monospace;
   color: white;
   letter-spacing: 0.15em;
 }

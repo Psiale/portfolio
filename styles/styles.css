@@ -7,13 +7,16 @@ body {
   width: 100%;
   height: 100%;
 }
-
-.welcome-container {
-  display: initial;
+body {
+  background-color: black;
+  font-family: 'Nanum Gothic', sans-serif;
 }
-
 .typewritter p {
   color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-family: 'Inconsolata', monospace;
   letter-spacing: 0.15em;
 }
 
@@ -24,13 +27,10 @@ body {
 }
 
 .icon{
-  animation-delay: .5s;
+  animation-delay: 3s;
   animation-name: bounce, fadeIn;
 }
 
-.info-container {
-  display: none;
-}
 
 
 

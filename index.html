@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/output.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://kit.fontawesome.com/524d3dfae6.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Document</title>
@@ -15,19 +14,26 @@
 </head>
 <body class="bg-purple-700">
     <div class="h-full  grid grid-rows-header" id="welcome-container">
-        <div class="typewritter w-full flex flex-col md:flex-row md:flex-wrap justify-center items-center">
-            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> Welcome  </p>
+        <div class="typewritter w-full flex flex-col md:flex-row  justify-center items-center">
+            <p class="my-4 pl-8 text-4xl sm:text-5xl lg:text-6xl"> Welcome  </p>
             <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> to</p>
             <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> my </p>
-            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl">portfolio 👨‍💻</p>
+            <p class=" animation mr-8 px-4 text-4xl sm:text-5xl lg:text-6xl">portfolio</p>
         </div>
-        <div class="flex justify-center items-center icon " onclick="welcomeHidder()"><p><i class=" animate__animated animate__fadeIn, animate_bounce  animate__repeat-3 welcome-hidder text-white text-6xl fas fa-angle-down"></i></p></div>
+        <div class="flex justify-center items-center icon " onclick="welcomeHidder()"><p><i class=" animate__animated animate__fadeIn, animate_bounce  animate__repeat-3 welcome-hidder text-white text-6xl icon fas fa-angle-down"></i></p></div>
     </div>
-    <div id="info-container" class=" h-full grid grid-rows-1 bg-red-500">
-        <div class="w-full flex justify-center items-center">
-            <p class="text-6xl text-black"> Heello</p>
-        </div>
+    <div class=" h-full flex justify-center items-center bg-red-700 sm:fixed sm:inset-y-0 sm:left-0 sm:w-2/5">
+        <p class="text-6xl text-black"> Heello</p>
     </div>
+    <div class="h-full w-full flex flex-col justify-end bg-green-500" id="info-container">
+        <div class="hidden sm:block w-full h-full bg-pink-800"> holiwiliwi</div>
+        <div class="hidden sm:block w-full h-full bg-yellow-500"> holiwiliwi</div>
+        <div class="hidden sm:block w-full h-full bg-yellow-400"> holiwiliwi</div>
+        <div class="hidden sm:block w-full h-full bg-yellow-300"> holiwiliwi</div>
+        <div class="hidden sm:block w-full h-full bg-yellow-200"> holiwiliwi</div>
+        <div class="hidden sm:block w-full h-full bg-yellow-100"> holiwiliwi</div>   
+    </div>
+    <div class="w-full h-full bg-pink-800 sm:hidden"> ajhflafhwh</div>
     <script src="main.js"></script>
 </body>
 </html>

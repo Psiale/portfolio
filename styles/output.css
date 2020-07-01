@@ -17878,6 +17878,32 @@ video {
   transition-delay: 1000ms;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.typewritter p {
+  color: white;
+  letter-spacing: 0.15em;
+}
+
+.grid-rows-header {
+  grid-template-rows: 80% 20%;
+}
+
+.icon{
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-name: bounce, fadeIn;
+          animation-name: bounce, fadeIn;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -86921,3 +86947,6 @@ video {
     transition-delay: 1000ms;
   }
 }
+
+
+

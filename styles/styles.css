@@ -7,6 +7,11 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.welcome-container {
+  display: initial;
+}
+
 .typewritter p {
   color: white;
   letter-spacing: 0.15em;
@@ -21,6 +26,10 @@ body {
 .icon{
   animation-delay: .5s;
   animation-name: bounce, fadeIn;
+}
+
+.info-container {
+  display: none;
 }
 
 

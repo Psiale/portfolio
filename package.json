@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Psiale/portfolio#readme",
   "devDependencies": {
     "tailwindcss": "^1.4.6"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0"
   }
 }

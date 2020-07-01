@@ -17884,8 +17884,8 @@ body {
   height: 100%;
 }
 
-body {
-  background-color: black;
+.welcome-container {
+  display: initial;
 }
 
 .typewritter p {
@@ -17898,10 +17898,14 @@ body {
 }
 
 .icon{
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
   -webkit-animation-name: bounce, fadeIn;
           animation-name: bounce, fadeIn;
+}
+
+.info-container {
+  display: none;
 }
 
 @media (min-width: 640px) {

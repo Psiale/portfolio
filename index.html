@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/output.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <script src="https://kit.fontawesome.com/524d3dfae6.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Document</title>
 
 </head>
-<body>
-    <div class="grid grid-rows-2 	">
-        <div class="typewritter flex justify-center h-screen items-center flex-wrap">
-            <h1 class=" sm:text-4xl lg:text-6xl"> Welcome to my portfolio 👨‍💻 </h1>
+<body class="bg-purple-700">
+    <div class="h-full  grid grid-rows-header" id="welcome-container">
+        <div class="typewritter w-full flex flex-col md:flex-row md:flex-wrap justify-center items-center">
+            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> Welcome  </p>
+            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> to</p>
+            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl"> my </p>
+            <p class="my-4 px-4 text-4xl sm:text-5xl lg:text-6xl">portfolio 👨‍💻</p>
         </div>
-        <div class="flex items-center"><p><i class=" text-white sm:text-4xl lg:text-6xl fas fa-angle-down"></i></p></div>
+        <div class="flex justify-center items-center icon " onclick="welcomeHidder()"><p><i class=" animate__animated animate__fadeIn, animate_bounce  animate__repeat-3 welcome-hidder text-white text-6xl fas fa-angle-down"></i></p></div>
     </div>
+    <div id="info-container" class=" h-full grid grid-rows-1 bg-red-500">
+        <div class="w-full flex justify-center items-center">
+            <p class="text-6xl text-black"> Heello</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

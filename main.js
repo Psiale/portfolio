@@ -4,6 +4,6 @@ let hello = document.getElementById("hello")
 
 function welcomeHidder() {
     welcomeContainer.style.display = "none";
-    // infoContainer.style.display = "grid";
-    hello.style.display = "sticky"
+    infoContainer.style.display = "grid";
+    hello.style.display = "fixed"
 }

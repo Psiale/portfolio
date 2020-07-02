@@ -73,15 +73,11 @@ height: 100%;
   grid-area: six;
 }
 
-#hello {
-  top: 101vh;
-}
 
-.icon{
+.icon {
   animation-delay: .3s;
   animation-name: bounce, fadeIn;
 }
-
 
 
 

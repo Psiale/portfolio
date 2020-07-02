@@ -26,8 +26,59 @@ body {
   grid-template-rows: 80% 20%;
 }
 
+#info-container {
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:"information one"
+                      "information two"
+                      "information three"
+                      "information four"
+                      "information five"
+                      "information six";
+}
+
+.information{
+background-color:white;
+grid-area: information;
+height: 100%;
+}
+
+.item-height {
+  height: 100vh;
+}
+
+.one{
+  grid-area: one;
+}
+
+.two{
+  grid-area: two;
+}
+
+.three{
+  grid-area: three;
+}
+
+.four{
+  grid-area: four;
+}
+
+.five{
+  grid-area: five;
+}
+
+.six{
+  grid-area: six;
+}
+
+#hello {
+  top: 101vh;
+}
+
 .icon{
-  animation-delay: 3s;
+  animation-delay: .3s;
   animation-name: bounce, fadeIn;
 }
 

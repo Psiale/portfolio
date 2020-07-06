@@ -96,3 +96,6 @@ grid-area: information;
   animation-name: bounce, fadeIn;
 }
 
+.info-container p{
+  min-height: min-content;
+}

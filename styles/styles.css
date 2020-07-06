@@ -99,3 +99,33 @@ grid-area: information;
 .info-container p{
   min-height: min-content;
 }
+
+.item-grid{
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 75% 15%;
+  grid-template-areas:"title title"
+                      "image image"
+                      "live-demo github";
+}
+
+.title{
+  grid-area: title;
+  background-color: red;
+}
+
+.image{
+  grid-area: image;
+  background-color: rosybrown;
+}
+
+.live-demo{
+  grid-area: live-demo;
+  background-color: salmon;
+}
+
+.github{
+  grid-area: github;
+  background-color:tan;
+}

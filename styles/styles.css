@@ -112,20 +112,16 @@ grid-area: information;
 
 .title{
   grid-area: title;
-  background-color: red;
 }
 
 .image{
   grid-area: image;
-  background-color: rosybrown;
 }
 
 .live-demo{
   grid-area: live-demo;
-  background-color: salmon;
 }
 
 .github{
   grid-area: github;
-  background-color:tan;
 }

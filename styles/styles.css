@@ -23,7 +23,7 @@ body {
 
 
 .grid-rows-header {
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 70% 30%;
 }
 
 #info-container {
@@ -39,10 +39,26 @@ body {
                       "information six";
 }
 
+@media only screen and (max-width: 639px) {
+  #info-container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+                        "information"
+                        "one"
+                        "two"
+                        "three"
+                        "four"
+                        "five"
+                        "six";
+  }
+}
+
 .information{
 background-color:white;
 grid-area: information;
-height: 100%;
 }
 
 .item-height {
@@ -75,6 +91,7 @@ height: 100%;
 
 
 .icon {
+  font-family: 'Inconsolata', monospace;
   animation-delay: .3s;
   animation-name: bounce, fadeIn;
 }

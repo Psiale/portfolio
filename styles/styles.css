@@ -13,9 +13,6 @@ body {
 }
 .typewritter p {
   color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
   font-family: 'Inconsolata', monospace;
   letter-spacing: 0.15em;
 }

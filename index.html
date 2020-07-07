@@ -17,13 +17,13 @@
 <body class="bg-purple-900">
     <div class="h-full z-20  grid grid-rows-header" id="welcome-container">
         <div class="typewritter w-full flex justify-center items-center">
-            <p class=" sm:px-8 text-4xl sm:text-5xl lg:text-6xl break-words">
+            <p class=" animate__animated animate__fadeOutDown sm:px-8 text-4xl sm:text-5xl lg:text-6xl break-words"
+            id="welcome">
                  Welcome to my portfolio </p>
         </div>
-        <div class="flex justify-center items-center icon " onclick="welcomeHidder()">
-            <p><i
-                    class=" animate__animated animate__fadeIn, animate_bounce  animate__repeat-3 welcome-hidder text-white text-6xl icon fas fa-angle-down"></i>
-            </p>
+        <div class="flex justify-center items-start icon " onclick="welcomeHidder()">
+            <button
+                    class=" animate__animated animate__fadeInUp welcome-hidder text-white text-3xl sm:text-4xl md:text-5xl icon bg-transparent hover:bg-purple-500 text-white font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded">View projects</button>
         </div>
     </div>
     <div class="hidden grid-rows-7 grid-flow-col bg-green-500" id="info-container">
@@ -33,7 +33,7 @@
                 <p>Hello, I'm Little Dr. Ricardito</p>
             </div>
         </div>
-        <div class="grid w-full sm:h-screen bg-purple-300 one p-6 item-grid">
+        <div class="grid w-full h-screen bg-purple-300 one p-6 item-grid">
             <div class=" text-gray-700 text-7xl w-full title">
                 <p class="text-gray-700 text-2xl sm:text-5xl w-full break-words tracking-widest">Snickers Shop</p>
             </div>

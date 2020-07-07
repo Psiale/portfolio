@@ -21,7 +21,7 @@ body {
 
 
 .grid-rows-header {
-  grid-template-rows: 70% 30%;
+  grid-template-rows: 50% 50%;
 }
 
 #info-container {
@@ -90,8 +90,12 @@ grid-area: information;
 
 .icon {
   font-family: 'Inconsolata', monospace;
-  animation-delay: .3s;
+  animation-delay: 1.5s;
   animation-name: bounce, fadeIn;
+}
+
+#welcome {
+  animation-duration: 2s;
 }
 
 .info-container p{

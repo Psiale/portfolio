@@ -13,6 +13,7 @@ body {
 }
 .typewritter p {
   color: white;
+  text-align: center;
   font-family: 'Inconsolata', monospace;
   letter-spacing: 0.15em;
 }

@@ -163,3 +163,8 @@ grid-area: information;
   width: 100%;
   transition: width .5s;
 }
+
+.contact{
+  width: 20px;
+  height: 20px;
+}

@@ -126,3 +126,20 @@ grid-area: information;
   grid-area: github;
 }
 
+.cool-link {
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #fff  ;
+  transition: width .10s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .5s;
+}

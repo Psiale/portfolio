@@ -143,3 +143,22 @@ grid-area: information;
   width: 100%;
   transition: width .5s;
 }
+
+.cool-link-dark{
+  text-decoration: none;
+}
+
+.cool-link-dark::after{
+  content:"";
+  display:block;
+  width: 0;
+  height: 4px;
+  background-color: #1a202c;
+  transition: width .10s;
+}
+
+.cool-link-dark:hover::after{
+  width: 100%;
+  transition: width .5s;
+}
+

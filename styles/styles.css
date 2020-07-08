@@ -90,12 +90,12 @@ grid-area: information;
 
 .icon {
   font-family: 'Inconsolata', monospace;
-  animation-delay: 1.5s;
+  animation-delay: 2s;
   animation-name: bounce, fadeIn;
 }
 
 #welcome {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
 }
 
 .info-container p{

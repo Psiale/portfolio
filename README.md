@@ -5,7 +5,7 @@ Hello there :wave: This is the first iteration of my Fullstack portfolio, give i
 
 ## Live Demo
 
-Check out the live demo [here](t.ly/XPMy).
+Check out the live demo [here](https://alexis-sanchez-dev.netlify.app/).
 
 ## Author
 

@@ -20,6 +20,7 @@
     "tailwindcss": "^1.4.6"
   },
   "dependencies": {
-    "animate.css": "^4.1.0"
+    "animate.css": "^4.1.0",
+    "eslint": "^7.5.0"
   }
 }

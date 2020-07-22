@@ -9,16 +9,14 @@ body {
 }
 body {
   background-color: black;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .typewritter p {
   color: white;
   text-align: center;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   letter-spacing: 0.15em;
 }
-
-
 
 .grid-rows-header {
   grid-template-rows: 50% 50%;
@@ -29,12 +27,13 @@ body {
   height: 100%;
   grid-template-columns: 40% 60%;
   grid-template-rows: repeat(6, 1fr);
-  grid-template-areas:"information one"
-                      "information two"
-                      "information three"
-                      "information four"
-                      "information five"
-                      "information six";
+  grid-template-areas:
+    "information one"
+    "information two"
+    "information three"
+    "information four"
+    "information five"
+    "information six";
 }
 
 @media only screen and (max-width: 639px) {
@@ -44,52 +43,51 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: repeat(7, 1fr);
     grid-template-areas:
-                        "information"
-                        "one"
-                        "two"
-                        "three"
-                        "four"
-                        "five"
-                        "six";
+      "information"
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six";
   }
 }
 
-.information{
-background-color:white;
-grid-area: information;
+.information {
+  background-color: white;
+  grid-area: information;
 }
 
 .item-height {
   height: 100vh;
 }
 
-.one{
+.one {
   grid-area: one;
 }
 
-.two{
+.two {
   grid-area: two;
 }
 
-.three{
+.three {
   grid-area: three;
 }
 
-.four{
+.four {
   grid-area: four;
 }
 
-.five{
+.five {
   grid-area: five;
 }
 
-.six{
+.six {
   grid-area: six;
 }
 
-
 .icon {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   animation-delay: 1.5s;
   animation-name: bounce, fadeIn;
 }
@@ -98,33 +96,34 @@ grid-area: information;
   animation-duration: 2.5s;
 }
 
-.info-container p{
+.info-container p {
   min-height: min-content;
 }
 
-.item-grid{
+.item-grid {
   width: 100%;
   height: 100%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 10% 70% 15%;
-  grid-template-areas:"title title"
-                      "image image"
-                      "live-demo github";
+  grid-template-areas:
+    "title title"
+    "image image"
+    "live-demo github";
 }
 
-.title{
+.title {
   grid-area: title;
 }
 
-.image{
+.image {
   grid-area: image;
 }
 
-.live-demo{
+.live-demo {
   grid-area: live-demo;
 }
 
-.github{
+.github {
   grid-area: github;
 }
 
@@ -133,38 +132,38 @@ grid-area: information;
 }
 
 .cool-link::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 4px;
-  background: #fff  ;
-  transition: width .10s;
+  background: #fff;
+  transition: width 0.1s;
 }
 
 .cool-link:hover::after {
   width: 100%;
-  transition: width .5s;
+  transition: width 0.5s;
 }
 
-.cool-link-dark{
+.cool-link-dark {
   text-decoration: none;
 }
 
-.cool-link-dark::after{
-  content:"";
-  display:block;
+.cool-link-dark::after {
+  content: "";
+  display: block;
   width: 0;
   height: 4px;
   background-color: #1a202c;
-  transition: width .10s;
+  transition: width 0.1s;
 }
 
-.cool-link-dark:hover::after{
+.cool-link-dark:hover::after {
   width: 100%;
-  transition: width .5s;
+  transition: width 0.5s;
 }
 
-.contact{
+.contact {
   width: 20px;
   height: 20px;
 }
@@ -175,15 +174,15 @@ grid-area: information;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:#44337a; 
+  background: #44337a;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(108, 1, 158); 
+  background: rgb(108, 1, 158);
 }

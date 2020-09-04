@@ -108,6 +108,7 @@ body {
   grid-template-areas:
     "title title"
     "image image"
+    "tech tech" 
     "live-demo github";
 }
 
@@ -117,6 +118,10 @@ body {
 
 .image {
   grid-area: image;
+}
+
+.tech {
+  grid-area: tech;
 }
 
 .live-demo {

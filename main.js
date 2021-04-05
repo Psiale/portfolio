@@ -8,3 +8,4 @@ function welcomeHidder() {
   infoContainer.style.display = "grid";
   hello.style.display = "fixed";
 }
+
